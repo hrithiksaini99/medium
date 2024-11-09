@@ -1,0 +1,28 @@
+name = "backend"
+main = "src/index.ts"
+compatibility_date = "2024-11-08"
+
+# compatibility_flags = [ "nodejs_compat" ]
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMDk1ZGU0ZmQtZjQ2Yy00NDk0LTllZjAtZTZiZmY0M2U0NWRhIiwidGVuYW50X2lkIjoiYjI2MzdhNGJiOWI4ZmMzMWI4MjAxMGQ4ZTFmNTMwMGQxZGRkNThiMDBjNGYyZWUwMTc1ZmQ5NGJhNzY2ZWY2NyIsImludGVybmFsX3NlY3JldCI6IjJmNDg3ZDhhLTYzZTMtNDBlNy1hZjRiLTEyM2ZmZTc1OTZhMSJ9.m1ep8rgUMX-kGRleAnM15V48GSStKnMGvHBviWs9DME"
+JWT_SECRET="mysecret"
